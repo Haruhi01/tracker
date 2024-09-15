@@ -5,29 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55f6f1f0-6a2c-4460-9b34-e63a7a4c4e50" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/database/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/DataBaseManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/EpicDBManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/TaskDBManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/history/History.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/history/HistoryManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/history/LimitedLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/EpicsManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/TasksManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/migrations/CreateEpicsTableMigration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/migrations/CreateTasksTableMigration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/migrations/Migration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/migrations/MigrationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_46_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/haruhi/tracker/migrations/MigrationSchema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tracker.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TaskManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/goal/AbstractTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/goal/AbstractTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/goal/Epic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/goal/Epic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/goal/Subtask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/goal/Subtask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/goal/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/goal/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracker.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_base.db" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/haruhi/tracker/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/haruhi/tracker/database/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/DataBaseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/haruhi/tracker/database/DatabaseManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/EpicDBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/haruhi/tracker/database/EpicDBManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/TaskDBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/haruhi/tracker/database/TaskDBManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/goal/AbstractTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/haruhi/tracker/goal/AbstractTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/goal/Epic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/haruhi/tracker/goal/Epic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/goal/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/haruhi/tracker/goal/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/goal/Subtask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/haruhi/tracker/goal/Subtask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/goal/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/haruhi/tracker/goal/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/history/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/haruhi/tracker/history/History.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/history/HistoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/haruhi/tracker/history/HistoryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/history/LimitedLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/haruhi/tracker/history/LimitedLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manager/EpicsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/haruhi/tracker/manager/EpicsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manager/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/haruhi/tracker/manager/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manager/TasksManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/haruhi/tracker/manager/TasksManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/migrations/CreateEpicsTableMigration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/haruhi/tracker/migrations/CreateEpicsTableMigration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/migrations/CreateTasksTableMigration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/haruhi/tracker/migrations/CreateTasksTableMigration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/migrations/Migration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/haruhi/tracker/migrations/Migration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/migrations/MigrationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/haruhi/tracker/migrations/MigrationManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +65,9 @@
     &quot;accountId&quot;: &quot;956487cc-5f89-40b8-ae96-3841d8a59835&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -72,22 +82,27 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.org.haruhi.tracker.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/projects/Tracker/src",
+    "last_opened_file_path": "C:/Users/wiiro/Downloads/sqlite-jdbc-3.46.0.0.jar",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\projects\Tracker\src" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Latheim\tracker\src\main\java\org\haruhi\tracker" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.org.haruhi.tracker.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Tracker" />
@@ -95,8 +110,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.haruhi.tracker.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.haruhi.tracker.Main" />
+      <module name="tracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.haruhi.tracker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.haruhi.tracker.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
