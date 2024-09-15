@@ -4,19 +4,22 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Epic extends AbstractTask{
-    private HashMap<Integer, Subtask> subtaskIds = new HashMap<>();
+    private HashMap<Integer, AbstractTask> subtaskIds = new HashMap<>();
 
-    Epic(String title, String description) {
+    public Epic(String title, String description) {
         super(title, description);
 
     }
 
-    public void addSubtask(String title, String description){
-        Subtask newSubtask = new Subtask(title, description, this);
+    public Epic(int id, String title, String description, Status status){
+        super(id, title, description, status);
+    }
+
+    public void addSubtask(Subtask newSubtask){
         subtaskIds.put(newSubtask.getId(), newSubtask);
     }
 
-    public HashMap<Integer, Subtask> getSubtaskIds() {
+    public HashMap<Integer, AbstractTask> getSubtaskIds() {
         return subtaskIds;
     }
 
@@ -26,7 +29,7 @@ public class Epic extends AbstractTask{
     public Status getStatus() {
         int countDone = 0;
         int countInProcess = 0;
-        for (Map.Entry<Integer, Subtask> subtask : subtaskIds.entrySet()){
+        for (Map.Entry<Integer, AbstractTask> subtask : subtaskIds.entrySet()){
             if (subtask.getValue().getStatus() == Status.DONE){
                 countDone += 1;
             } else if (subtask.getValue().getStatus() == Status.IN_PROGRESS) {

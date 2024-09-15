@@ -3,11 +3,13 @@ package goal;
 public class Task extends AbstractTask{
 
 
-        Task(String title, String description){
+        public Task(String title, String description){
                 super(title, description);
 
         }
-
+        public Task (int id, String title, String description, Status status){
+                super(id, title, description, status);
+        }
 
 
         public void setStatus(Status status) {
